@@ -29,7 +29,7 @@ connectionIdentifier:(NSString *)identifier
 }
 
 - (id)  initWithJSON:(NSData *)theJSON
-		    delegate:(NSObject *)theDelegate 
+		    delegate:(NSObject<MGTwitterParserDelegate> *)theDelegate 
 connectionIdentifier:(NSString *)theIdentifier
   	     requestType:(MGTwitterRequestType)reqType 
 	    responseType:(MGTwitterResponseType)respType
